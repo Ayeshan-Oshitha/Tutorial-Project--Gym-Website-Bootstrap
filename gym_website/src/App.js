@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import Spacer from "./components/Spacer/Spacer";
+import JoinSection from "./components/JoinSection/JoinSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Spacer />
       <Features />
+      <JoinSection />
     </div>
   );
 }
