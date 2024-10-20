@@ -7,6 +7,7 @@ import Features from "./components/Features/Features";
 import Spacer from "./components/Spacer/Spacer";
 import JoinSection from "./components/JoinSection/JoinSection";
 import Plans from "./components/Plans/Plans";
+import TrainSection from "./components/TrainSection/TrainSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Features />
       <JoinSection />
       <Plans />
+      <TrainSection />
     </div>
   );
 }
