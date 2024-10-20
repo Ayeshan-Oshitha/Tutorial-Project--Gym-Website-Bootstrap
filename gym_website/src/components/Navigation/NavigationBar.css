@@ -22,6 +22,8 @@
 @media screen and (max-width: 992px) {
   #basic-navbar-nav {
     background-color: #000000;
+    border: 1px solid white;
+    border-radius: 15px;
   }
 
   .navbar .nav-link:hover {
