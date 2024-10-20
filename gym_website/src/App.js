@@ -8,6 +8,7 @@ import Spacer from "./components/Spacer/Spacer";
 import JoinSection from "./components/JoinSection/JoinSection";
 import Plans from "./components/Plans/Plans";
 import TrainSection from "./components/TrainSection/TrainSection";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <JoinSection />
       <Plans />
       <TrainSection />
+      <Contact />
     </div>
   );
 }
