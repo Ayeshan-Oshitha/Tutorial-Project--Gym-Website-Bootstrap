@@ -9,6 +9,7 @@ import JoinSection from "./components/JoinSection/JoinSection";
 import Plans from "./components/Plans/Plans";
 import TrainSection from "./components/TrainSection/TrainSection";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Plans />
       <TrainSection />
       <Contact />
+      <Spacer />
+      <Footer />
     </div>
   );
 }
